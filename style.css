@@ -11,6 +11,11 @@ h2 {
   text-align: center;
 }
 
+.label-input {
+  display: flex;
+  justify-content: space-around;
+}
+
 h3 {
   font-size: 18px;
   font-weight: 500;
@@ -31,7 +36,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* -------  Navigation ------- */
