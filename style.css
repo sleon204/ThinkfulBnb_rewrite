@@ -112,3 +112,22 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 480px) {
+  
+  header {
+    display: flex;
+    }
+
+    .logo{
+      font-size: 40px;
+    }
+
+
+}
+
+@media all  and (max-width: 400px) {
+
+  main {
+    background-color: #ff00ff;
+  }
+}
