@@ -34,22 +34,6 @@ main img {
   width: 100px;
 }
 
-/* ---  Groups & Items --- */
-
-.group {
-  display: flex;
-  flex-direction: column;
-}
-
-.item {
-  flex: 1;
-  margin: 10px;
-}
-
-.item-double {
-  flex: 2;
-}
-
 /* -------  Navigation ------- */
 
 header {
@@ -62,6 +46,12 @@ header {
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
 }
 
 header nav ul li {
