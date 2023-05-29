@@ -131,8 +131,23 @@ footer p {
     min-width: 100%;
   }
 
+	.about-row {
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+    gap: 10px;
+	}
 
-  
+	.about-row img {
+		width: 25%;
+    flex: 1;
+	}
+
+	.about-row p {
+		margin-left: 20px;
+		flex: 1;
+    font-size: x-small;
+	}  
 }
 
 @media all and (max-width: 400px) {
