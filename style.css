@@ -114,11 +114,9 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (max-width: 400px) {
-
-
-  .logo {
-    font-size: 50px;
-  }
+	.logo {
+		font-size: 50px;
+	}
 }
 
 @media all and (min-width: 480px) {
@@ -130,108 +128,118 @@ footer p {
 	.logo {
 		font-size: 40px;
 	}
+	form {
+		display: flex;
+		justify-content: space-evenly;
+		gap: 10px;
+    font-size: xx-small;
+	}
+  form > div {
+    width: 20%;
 
+  }
 	.label-input {
 		display: flex;
 		flex-direction: column;
 	}
 
-	input,
-	select {
-		min-width: 100%;
+	form input,
+	form select {
+    font-size: xx-small;
+    width: 100%;
 	}
 
-  .about-content {
-    display: flex;
-    gap: 20px;
+  form button {
     font-size: x-small;
-    justify-content: center;
-    align-items: center;
   }
 
-  .about-content div {
-    width: 50%;
-  }
+	.about-content {
+		display: flex;
+		gap: 20px;
+		font-size: x-small;
+		justify-content: center;
+		align-items: center;
+	}
 
-  .about-images{
-    display: flex;
-    gap: 10px;
-  }
+	.about-content div {
+		width: 50%;
+	}
 
-  .ideas-content {
-    display: flex;
-    gap: 20px;
-  }
-  .ideas-content div {
-    width: 50%;
-  }
+	.about-images {
+		display: flex;
+		gap: 10px;
+	}
+
+	.ideas-content {
+		display: flex;
+		gap: 20px;
+	}
+	.ideas-content div {
+		width: 50%;
+	}
 
 	.host-content {
 		display: flex;
 		justify-content: center;
-    gap: 20px;
-    align-items: center;
-    font-size: x-small;
+		gap: 20px;
+		align-items: center;
+		font-size: x-small;
 	}
-  .host-content div {
-    width: 50%
-    
-  };
+	.host-content div {
+		width: 50%;
+	}
 }
 
 @media all and (min-width: 500px) {
-
-  .about-content {
-    display: flex;
-    gap: 20px;
-    font-size: small;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .host-content {
+	.about-content {
 		display: flex;
+		gap: 20px;
+		font-size: small;
 		justify-content: center;
-    gap: 20px;
-    align-items: center;
-    font-size: small;
+		align-items: center;
 	}
 
-  @media all and (min-width: 700px) {
-    .about-content {
-      display: flex;
-      gap: 20px;
-      font-size: medium;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .host-content {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      align-items: center;
-      font-size: medium;
-    }
-  }
+	.host-content {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		align-items: center;
+		font-size: small;
+	}
 
-  @media all and (min-width: 850px) {
-    .about-content {
-      display: flex;
-      gap: 20px;
-      font-size: large;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    .host-content {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      align-items: center;
-      font-size: large;
-    }
-  }
+	@media all and (min-width: 700px) {
+		.about-content {
+			display: flex;
+			gap: 20px;
+			font-size: medium;
+			justify-content: center;
+			align-items: center;
+		}
 
-  
+		.host-content {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			align-items: center;
+			font-size: medium;
+		}
+	}
+
+	@media all and (min-width: 850px) {
+		.about-content {
+			display: flex;
+			gap: 20px;
+			font-size: large;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.host-content {
+			display: flex;
+			justify-content: center;
+			gap: 20px;
+			align-items: center;
+			font-size: large;
+		}
+	}
 }
