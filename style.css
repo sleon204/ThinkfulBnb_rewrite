@@ -132,7 +132,7 @@ footer p {
 		display: flex;
 		justify-content: space-evenly;
 		gap: 10px;
-		font-size: xx-small;
+		font-size: x-small;
 	}
 	form > div {
 		width: 20%;
@@ -144,7 +144,7 @@ footer p {
 
 	form input,
 	form select {
-		font-size: xx-small;
+		font-size: x-small;
 		width: 100%;
 	}
 
