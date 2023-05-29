@@ -160,6 +160,7 @@ footer p {
 
   .ideas-content {
     display: flex;
+    gap: 20px;
   }
   .ideas-content div {
     width: 50%;
