@@ -205,6 +205,30 @@ footer p {
 		align-items: center;
 		font-size: small;
 	}
+	form {
+		display: flex;
+		justify-content: space-evenly;
+		gap: 10px;
+		font-size: small;
+	}
+	form > div {
+		width: 20%;
+	}
+	.label-input {
+		display: flex;
+		flex-direction: column;
+	}
+
+	form input,
+	form select {
+		font-size: small;
+		width: 100%;
+	}
+
+	form button {
+		font-size: small;
+	}
+
 
 	@media all and (min-width: 700px) {
 		.about-content {
